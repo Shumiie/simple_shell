@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * getCmdPath - Search for a given command in the PATH
- * @cmd: The command to be searched
+ * getCmdPath - Search a command in the PATH
+ * @cmd: The command to searched
  *
  * Return: path, otherwise NULL
  */
