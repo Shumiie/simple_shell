@@ -42,7 +42,7 @@ void _freeargs(char **args);
 int execCmd(char *sh, char *cmd, char **args);
 char **parser(char *str, char *delim);
 char *getCmdPath(char *cmd);
-size_t prompt(char **str, int *mode);
+size_t prompts(char **str, int *mode);
 /**
  * struct builtins - Struct builtins
  * @name: The name of this command
@@ -71,7 +71,7 @@ char *_getenv(char *k);
 int __exit(char **args __attribute__((unused)));
 int _isdigit(int c);
 int _atoi(char *s);
-char *removeComment(char *str);
+char *commentRemove(char *str);
 char *_itoa(int num);
 int num_len(int num);
 char *replace_var(char *s, shell_var_t *svar);
