@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 		str = NULL;
 		if (argc > 1)
 		{
-			if (processFile(argv[1], &str) == 0)
+			if (fileProcessor(argv[1], &str) == 0)
 				exit(var.code);
 		}
 		else
