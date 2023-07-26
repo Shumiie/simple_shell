@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * get_builtins - Gets all built command
- * @name: The command name
+ * get_builtins - Gets built command
+ * @name: The name
  *
  * Return: Built-in command or NULL
  */
